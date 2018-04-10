@@ -1,0 +1,80 @@
+
+body{
+font-family: "Helvetica Neue", sans-serif;
+}
+div{
+  margin-bottom: 5px;
+}
+header{
+  width: 350px;
+  margin: 0px auto;
+}
+img{
+  display: block;
+  text-align: center;
+  margin-left: 55px;
+}
+
+fieldset {
+  border-color: lightgrey;
+  border-width: thin;
+  width: 350px;
+  margin: 0px auto;
+  border-width: .5px;
+  border-radius: 10px;
+  padding-left: 5vh
+  }
+  h1 {
+    font-weight: 300;
+  }
+  input :focus{
+    background-color: orange;
+  }
+  input{
+    width: 90%;
+    margin: 0px auto;
+    padding-left: 1vh;
+    border-radius: 3px;
+
+  }
+  label {
+    font-size: 12px;
+    font-weight: 600;
+  }
+  label a{
+    text-decoration: none;
+    margin-left: 115px;
+  }
+  .Signin{
+    color: black;
+    background-image: linear-gradient(to bottom:);
+    background-color: rgb(255, 215, 0);
+    width: 90%;
+    border-width: thin;
+    border-radius: 5px;
+    height: 30px;
+    margin-top: 20px;
+    padding; 1vh;
+
+  }
+  .bgwhite{
+    background-color: white;
+  }
+  h4{
+    text-align: center;
+    border-bottom: 1px solid grey;
+    line-height: 1px;
+    color: lightgrey;
+
+  }
+  button{
+    width: 90%;
+    border-width: thin;
+    border-radius: 5px;
+    height: 30px;
+    padding: 1vh;
+    margin-top: 20px;
+  }
+  footer{
+    text-align: center;
+  }
