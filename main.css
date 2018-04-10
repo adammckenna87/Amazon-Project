@@ -27,14 +27,15 @@ fieldset {
   h1 {
     font-weight: 300;
   }
-  input :focus{
-    background-color: orange;
-  }
-  input{
+input :focus{
+  outline-color: orange;
+}
+  input {
     width: 90%;
     margin: 0px auto;
     padding-left: 1vh;
     border-radius: 3px;
+
 
   }
   label {
@@ -47,8 +48,8 @@ fieldset {
   }
   .Signin{
     color: black;
-    background-image: linear-gradient(to bottom:);
-    background-color: rgb(255, 215, 0);
+    background-image: linear-gradient(to bottom:#F7DEA1, #F0C14D);
+    background-color: gold;
     width: 90%;
     border-width: thin;
     border-radius: 5px;
@@ -59,6 +60,7 @@ fieldset {
   }
   .bgwhite{
     background-color: white;
+    padding:0 2vh;
   }
   h4{
     text-align: center;
